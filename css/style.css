@@ -14,6 +14,7 @@
 
 body {
     font-family: Verdana;
+    background-image: url(https://mg.skyrock.net/pictures/56169929.4.jpg);
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -24,7 +25,7 @@ body>header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 20px;
+    padding: 0 13%;
 }
 
 body>header>img {
@@ -59,7 +60,7 @@ body>header>div>input:focus {
 }
 
 #wrapper {
-    width: 980px;
+    width: 990px;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -71,8 +72,8 @@ section.side {
     color: var(--yellow-text);
     font-size: x-small;
     font-weight: bold;
-    width: 160px;
-    max-width: 160px;
+    width: 166px;
+    max-width: 166px;
     height: 100%;
     padding: 0 5px;
     border: 1px solid var(--white);
@@ -102,7 +103,7 @@ section.side ul li {
 }
 
 section.center {
-    width: 620px;
+    width: 625px;
     height: 100%;
 }
 
