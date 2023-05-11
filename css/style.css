@@ -63,17 +63,46 @@ body>header>div>input:focus {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 5em auto;
 }
 
 section.side {
     background-color: var(--green-box);
-    width: 171px;
+    color: var(--yellow-text);
+    font-size: x-small;
+    font-weight: bold;
+    width: 160px;
+    max-width: 160px;
     height: 100%;
+    padding: 0 5px;
+    border: 1px solid var(--white);
+}
+
+section.side img {
+    margin: 0 20px;
+}
+
+section.side p.center {
+    text-align: center;
+}
+
+section.side ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-left: -5px;
+    padding: 0;
+    align-self: flex-start;
+}
+
+section.side ul li {
+    border: 1px solid var(--white);
+    padding: 10px 30.5px;
+    cursor: pointer;
 }
 
 section.center {
-    width: 625px;
+    width: 620px;
     height: 100%;
 }
 
