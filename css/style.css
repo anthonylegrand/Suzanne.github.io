@@ -25,7 +25,8 @@ body>header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 13%;
+    padding-right: 30px;
+    width: calc(100%-30px);
 }
 
 body>header>img {
