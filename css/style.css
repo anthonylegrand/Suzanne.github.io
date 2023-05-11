@@ -1,0 +1,118 @@
+:root {
+    --main-bg: #383838;
+    --dark-bg: #272727;
+
+    --green-box: #8DD354;
+    --yellow-text: #FEFE00;
+
+    --blue-post-header: #39A9D6;
+    --pink-post-body: #d66da5;
+    --black-post-text: #0F1970;
+
+    --white: #ffffff;
+}
+
+body {
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body>header {
+    background-color: var(--main-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+body>header>img {
+    background-color: var(--dark-bg);
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+body>header>div>input {
+    background-color: #272727;
+    border: none;
+    padding: 5px 10px;
+}
+
+body>header>div>input:focus {
+    background-color: var(--white);
+}
+
+.btn {
+    border: 0;
+    color: var(--white);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn.green {
+    background-color: #87b201;
+}
+
+.btn.blue {
+    background-color: #009aff;
+}
+
+#wrapper {
+    width: 980px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+section.side {
+    background-color: var(--green-box);
+    width: 171px;
+    height: 100%;
+}
+
+section.center {
+    width: 625px;
+    height: 100%;
+}
+
+article header,
+article footer {
+    color: var(--white);
+    background-color: var(--blue-post-header);
+    padding: 5px 10px;
+}
+
+article header {
+    text-align: center;
+    font-size: large;
+}
+
+article div {
+    background-color: var(--pink-post-body);
+    padding: 15px;
+    display: flex;
+}
+
+article .opt-comment {
+    justify-content: space-between;
+}
+
+article ul {
+    padding: 0 0 5px 5px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+article ul li {
+    padding: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+article div img {
+    margin-right: 10px;
+}
